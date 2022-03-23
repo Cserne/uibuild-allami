@@ -107,14 +107,14 @@ header span {
 }
 
 .card p {
-    border: 2px solid red;
     font-size: 18px;
     font-weight: 700;
+    text-align: center;
 }
 
 .card div:nth-child(2) {
     margin-top: 30px;
-    border: 2px solid green;
+    text-align: center;
     height: 40px;
     border-bottom: 2px solid var(--primary-color);
 }
@@ -168,9 +168,6 @@ button {
     vertical-align: middle;
     margin-left: 35px;
 }
-
-.menu.material-icons { font-size: 36px; }
-.arrow.material-icons { font-size: 36px; }
 
 @media screen and (min-width: 935px) {
     .card div {
